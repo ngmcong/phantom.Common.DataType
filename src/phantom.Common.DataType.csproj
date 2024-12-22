@@ -1,0 +1,13 @@
+<Project Sdk="Microsoft.NET.Sdk">
+  <PropertyGroup>
+    <TargetFramework>net6.0</TargetFramework>
+    <Description>$(AssemblyName)</Description>
+    <Version>$(VersionPrefix)</Version>
+    <PackageId>$(AssemblyName)</PackageId>
+    <Authors>phantom</Authors>
+    <Product>$(AssemblyName)</Product>
+    <Title>$(AssemblyName)</Title>
+    <Copyright>phantom ©2024</Copyright>
+    <RepositoryUrl>https://github.com/ngmcong/phantom.Common.DataType</RepositoryUrl>
+  </PropertyGroup>
+</Project>
