@@ -11,9 +11,11 @@ on:
 
 jobs:
   build:
-
     runs-on: ubuntu-latest
-
+    environment: ngmcong
+    defaults:
+      run:
+        working-directory: ./src
     steps:
     - uses: actions/checkout@v4
     - name: Setup .NET
