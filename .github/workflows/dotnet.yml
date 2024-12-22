@@ -31,5 +31,5 @@ jobs:
     - name: Pack
       run: dotnet pack --configuration Release
     - name: Push
-      run: dotnet nuget push **/*.nupkg --api-key ${{ secrets.PHANTOM_TOKEN }} --source github
+      run: dotnet nuget push **/*.nupkg --api-key ${{ secrets.PHANTOM_TOKEN }} --source github --skip-duplicate
       
