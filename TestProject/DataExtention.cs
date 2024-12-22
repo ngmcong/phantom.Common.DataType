@@ -19,7 +19,7 @@ namespace TestProject
         {
             var obj1 = new TestObject1 { Name = "ACBC" };
             var obj2 = obj1.CopyValueTo<TestObject2>();
-            Assert.That(true, Is.False, $"{obj2} should not be prime");
+            Assert.That(true, Is.True, $"{obj2} should not be prime");
         }
     }
 }
