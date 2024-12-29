@@ -9,6 +9,6 @@
     <Title>$(AssemblyName)</Title>
     <Copyright>phantom ©2024</Copyright>
     <RepositoryUrl>https://github.com/ngmcong/phantom.Common.DataType</RepositoryUrl>
-    <VersionPrefix >1.0.1</VersionPrefix>
+    <VersionPrefix >1.0.2</VersionPrefix>
   </PropertyGroup>
 </Project>
